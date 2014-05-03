@@ -69,9 +69,9 @@ function zxt_enhance_body_class($classes) {
 		$classes[] = $site_prefix . $blog_id;
 	}
 	
-    global $current_user;
-    $user_role = array_shift($current_user->roles);
-    $classes[] = $role_prefix . $user_role;
+	global $current_user;
+	$user_role = array_shift($current_user->roles);
+	$classes[] = $role_prefix . $user_role;
     	
 	return $classes;
 }
