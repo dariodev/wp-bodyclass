@@ -11,8 +11,8 @@ License: GPL2
 
 function zxt_enhance_body_class($classes) {
 
-	$post_name_prefix = 'post-';
-	$page_name_prefix = 'page-';
+	$post_name_prefix = 'postname-';
+	$page_name_prefix = 'pagename-';
 	$single_term_prefix = 'single-';
 	$single_parent_prefix = 'parent-';
 	$category_parent_prefix = 'parent-category-';
